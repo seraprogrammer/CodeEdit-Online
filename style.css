@@ -1,14 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap')
+@font-face {
+  font-family: 'CascadiaCode';
+  src: url('/fonts/CascadiaCode.woff2') format('woff'); /* For modern browsers */
+}
 body {
   margin: 0;
   overflow: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #1e1e1e;
   color: #abb2bf;
-}
-
-@font-face {
-  font-family: 'CascadiaCode';
-  src: url('/fonts/CascadiaCode.woff2') format('woff'); /* For modern browsers */
 }
 
 .editor {
@@ -30,7 +31,7 @@ body {
   color: #abb2bf;
   border: none;
   outline: none;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   font-size: 20px;
 }
 
@@ -51,8 +52,7 @@ h3 {
   white-space: pre-wrap;
   color: #ffffff;
   font-size: 18px;
-  src: url('/fonts/CascadiaCode.woff2') format('woff');
-  font-family: 'CascadiaCode', sans-serif;
+  font-family: "Fira Code", monospace;
 }
 
 .CodeMirror {
@@ -60,6 +60,5 @@ h3 {
   height: 100vh;
   color: #000;
   direction: ltr;
-  src: url('/fonts/CascadiaCode.woff2') format('woff');
-  font-family: 'CascadiaCode', sans-serif;
+  font-family: "Fira Code", monospace;
 }
